@@ -21,7 +21,18 @@ Ext.define('AM.controller.GameManager', {
 
                 },
                 btnControlClick: function(){
-
+                    if (status == 0){
+                        Ext.data.JsonP.request({
+                            scope:this,
+                            url: '/tictactoe/stop',
+                            callback: function (status, results) {
+                                Ext.getCmp('txtStatus').setText(results.results);
+                                Ext.getCmp('btnControl').setText("Start");
+                                Ext.getCmp('mainScreenId').setDisabled(true);
+                            }
+                        });
+                        status = 1;
+                    }
                 }
             }
         });
