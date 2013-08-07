@@ -5,4 +5,10 @@ Harness.configure({
     hostPageUrl: '../../index.gsp'
 });
 
-Harness.start();
+Harness.start([{
+    group: 'Test View',
+    items: [{
+        title : 'Join game and stop without playing',
+        url : 'specs/01_join_and_stop.js'
+    }]
+}]);
