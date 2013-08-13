@@ -18,8 +18,19 @@ Ext.define('AM.controller.GameManager', {
         this.control({
             'gameScreen':{
                 btnClick: function(y, x){
-                    Ext.getCmp(y + "_" + x).setSrc("images/x.png");
-                    Ext.getCmp('txtStatus').setText("X played, O playing ...");
+                    if(count % 2 == 0){
+                        if(Ext.getCmp(y + "_" + x).src == "") {
+                            Ext.getCmp(y + "_" + x).setSrc("images/x.png");
+                            Ext.getCmp('txtStatus').setText("X played, O playing ...");
+                            ++count;
+                        }
+                    } else {
+                        if(Ext.getCmp(y + "_" + x).src == "") {
+                            Ext.getCmp(y + "_" + x).setSrc("images/o.png");
+                            Ext.getCmp('txtStatus').setText("O played, X playing ...");
+                            ++count;
+                        }
+                    }
                 },
                 btnControlClick: function(){
                     if (status == 0){

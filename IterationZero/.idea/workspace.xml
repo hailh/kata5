@@ -80,7 +80,7 @@
       <file leaf-file-name="02_join_play_stop_and_nobody_win.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="117" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.12523021">
+            <state line="62" column="77" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.8453039">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="GameManager.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="97" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+            <state line="32" column="65" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,8 +127,8 @@
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/mocks/stop_request.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js" />
-        <option value="$PROJECT_DIR$/web-app/app/controller/GameManager.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js" />
+        <option value="$PROJECT_DIR$/web-app/app/controller/GameManager.js" />
       </list>
     </option>
   </component>
@@ -579,7 +579,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -705,14 +705,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="97" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+        <state line="32" column="65" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="117" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.12523021">
+        <state line="62" column="77" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.8453039">
           <folding />
         </state>
       </provider>
