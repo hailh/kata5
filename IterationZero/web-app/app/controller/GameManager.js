@@ -18,7 +18,8 @@ Ext.define('AM.controller.GameManager', {
         this.control({
             'gameScreen':{
                 btnClick: function(y, x){
-
+                    Ext.getCmp(y + "_" + x).setSrc("images/x.png");
+                    Ext.getCmp('txtStatus').setText("X played, O playing ...");
                 },
                 btnControlClick: function(){
                     if (status == 0){

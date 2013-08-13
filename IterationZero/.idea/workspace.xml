@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_join_play_stop_and_nobody_win.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="02_join_play_stop_and_nobody_win.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="592" selection-end="592" vertical-scroll-proportion="0.25046042">
+            <state line="28" column="22" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameManager.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+            <state line="21" column="79" selection-start="644" selection-end="644" vertical-scroll-proportion="0.31123388">
               <folding />
             </state>
           </provider>
@@ -703,16 +703,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+        <state line="28" column="22" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
+    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="592" selection-end="592" vertical-scroll-proportion="0.25046042">
+        <state line="21" column="79" selection-start="644" selection-end="644" vertical-scroll-proportion="0.31123388">
           <folding />
         </state>
       </provider>
