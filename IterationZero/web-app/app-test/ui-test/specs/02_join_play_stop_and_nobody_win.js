@@ -1,7 +1,9 @@
 StartTest(function(t) {
     joinGame(t);
     playX(t);
-    hasStatusXPlayedYPlaying(t);
+    hasStatusXPlayedOPlaying(t);
+    playO(t);
+    hasStatusOPlayedXPlaying(t);
     clickStopButton(t);
     hasStoppedAfterClickStopButton(t);
 });
@@ -24,11 +26,28 @@ function playX(t){
     ]);
 }
 
-function hasStatusXPlayedYPlaying(t){
+function hasStatusXPlayedOPlaying(t){
     t.chain([
         { waitFor : 1500 },
         function(next) {
             t.is(Ext.getCmp('txtStatus').text, 'X played, O playing ...', 'X played, O playing ... after first step');
+            next();
+        }
+    ]);
+}
+
+function playO(t){
+    t.chain([
+        { waitFor : 1700 },
+        { action : 'click', target: Ext.getCmp("0_2") }
+    ]);
+}
+
+function hasStatusOPlayedXPlaying(t){
+    t.chain([
+        { waitFor : 2200 },
+        function(next) {
+            t.is(Ext.getCmp('txtStatus').text, 'O played, X playing ...', 'O played, X playing ... after second steps');
             next();
         }
     ]);
