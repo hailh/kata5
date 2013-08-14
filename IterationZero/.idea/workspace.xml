@@ -62,7 +62,7 @@
       <file leaf-file-name="02_join_play_stop_and_nobody_win.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+            <state line="4" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,25 @@
       <file leaf-file-name="unit_test.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/unit_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="14" selection-start="49" selection-end="49" vertical-scroll-proportion="0.062615104">
+            <state line="31" column="27" selection-start="847" selection-end="847" vertical-scroll-proportion="0.9705341">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game_action.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="53" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_join_and_stop.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,11 +108,13 @@
         <option value="$PROJECT_DIR$/web-app/index.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/mocks/stop_request.js" />
         <option value="$PROJECT_DIR$/web-app/app/controller/GameManager.js" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.html" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/unit_test.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js" />
-        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js" />
-        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js" />
-        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/unit_test.js" />
       </list>
     </option>
   </component>
@@ -261,6 +281,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,34 +691,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="766" selection-end="766" vertical-scroll-proportion="0.78268874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="47" selection-start="496" selection-end="496" vertical-scroll-proportion="0.6887661">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="40" selection-start="235" selection-end="235" vertical-scroll-proportion="0.3130755">
@@ -699,16 +717,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="36" selection-start="191" selection-end="191" vertical-scroll-proportion="0.3756906">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="487" selection-end="487" vertical-scroll-proportion="0.3617021">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="30" selection-start="771" selection-end="771" vertical-scroll-proportion="0.78268874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="53" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+        <state line="4" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/unit_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="49" selection-end="49" vertical-scroll-proportion="0.062615104">
+        <state line="31" column="27" selection-start="847" selection-end="847" vertical-scroll-proportion="0.9705341">
           <folding />
         </state>
       </provider>

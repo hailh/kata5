@@ -17,23 +17,18 @@ function joinGame(t){
     t.pass("Game started !");
 }
 
-function playX(t){
+function playOneStep(t, x, y){
+    Utils.timeSchedule += 500;
     t.chain([
-        { waitFor : 1000 },
-        { action : 'click', target: Ext.getCmp("0_1") }
-    ]);
-}
-
-function playO(t){
-    t.chain([
-        { waitFor : 1700 },
-        { action : 'click', target: Ext.getCmp("0_2") }
+        { waitFor : Utils.timeSchedule },
+        { action : 'click', target: Ext.getCmp(x + "_" + y) }
     ]);
 }
 
 function clickStopButton(t){
+    Utils.timeSchedule += 500;
     t.chain([
-        { waitFor : 3000 },
+        { waitFor : Utils.timeSchedule },
         { action : 'click', target: Ext.getCmp("btnControl") }
     ]);
 }

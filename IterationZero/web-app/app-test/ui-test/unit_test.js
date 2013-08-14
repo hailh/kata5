@@ -7,8 +7,9 @@
  */
 
 function hasStatusXPlayedOPlaying(t){
+    Utils.timeSchedule += 500;
     t.chain([
-        { waitFor : 1500 },
+        { waitFor : Utils.timeSchedule },
         function(next) {
             t.is(Ext.getCmp('txtStatus').text, 'X played, O playing ...', 'X played, O playing ... after first step');
             next();
@@ -17,8 +18,9 @@ function hasStatusXPlayedOPlaying(t){
 }
 
 function hasStatusOPlayedXPlaying(t){
+    Utils.timeSchedule += 500;
     t.chain([
-        { waitFor : 2200 },
+        { waitFor : Utils.timeSchedule },
         function(next) {
             t.is(Ext.getCmp('txtStatus').text, 'O played, X playing ...', 'O played, X playing ... after second steps');
             next();
@@ -27,8 +29,9 @@ function hasStatusOPlayedXPlaying(t){
 }
 
 function hasStoppedAfterClickStopButton(t){
+    Utils.timeSchedule += 500;
     t.chain([
-        { waitFor : 4000 },
+        { waitFor : Utils.timeSchedule },
         function(next) {
             t.is(Ext.getCmp('txtStatus').text, 'Game stopped !', 'Game stooped after click "Stop" button');
             next();
