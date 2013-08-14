@@ -20,8 +20,6 @@ Harness.start([{
         title : 'Join game, play some steps, stop without winner',
         url : 'specs/02_join_play_stop_and_nobody_win.js',
         preload : [
-            '../../js/sinon-1.5.2.js',
-            'mocks/stop_request.js',
             'game_action.js',
             'unit_test.js'
         ]

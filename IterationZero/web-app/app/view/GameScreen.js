@@ -164,6 +164,14 @@ Ext.define('AM.view.GameScreen', {
             handler: function(){
                 Ext.ComponentQuery.query('gameScreen')[0].fireEvent('btnControlClick');
             }
+        }, {
+            xtype: 'button',
+            id: 'btnHistory',
+            text: 'History',
+            width: 200,
+            handler: function(){
+                Ext.ComponentQuery.query('gameScreen')[0].fireEvent('btnHistoryClick');
+            }
         }]
     }]
 });
