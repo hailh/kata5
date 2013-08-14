@@ -41,5 +41,13 @@ Harness.start([{
             'game_action.js',
             'unit_test.js'
         ]
+    }, {
+        title : 'Join game, play, and draw',
+        url : 'specs/05_join_play_and_draw.js',
+        preload : [
+            'common/utils.js',
+            'game_action.js',
+            'unit_test.js'
+        ]
     }]
 }]);
