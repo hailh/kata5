@@ -71,3 +71,14 @@ function hasStatusDraw(t){
         }
     ]);
 }
+
+function hasShowedGameHistory(t){
+    Utils.timeSchedule += 500;
+    t.chain([
+        { waitFor : Utils.timeSchedule },
+        function(next) {
+            t.isNot(Ext.getCmp('gridHistory').getStore().data.items.length, 0, 'Show game history in grid view');
+            next();
+        }
+    ]);
+}

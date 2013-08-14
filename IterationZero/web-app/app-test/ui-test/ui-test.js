@@ -47,5 +47,13 @@ Harness.start([{
             'game_action.js',
             'unit_test.js'
         ]
+    }, {
+        title : 'View game history',
+        url : 'specs/06_view_history.js',
+        preload : [
+            'common/utils.js',
+            'game_action.js',
+            'unit_test.js'
+        ]
     }]
 }]);

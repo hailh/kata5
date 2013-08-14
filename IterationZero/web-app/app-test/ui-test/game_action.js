@@ -33,3 +33,11 @@ function clickStopButton(t){
         { action : 'click', target: Ext.getCmp("btnControl") }
     ]);
 }
+
+function clickHistoryButton(t){
+    Utils.timeSchedule += 500;
+    t.chain([
+        { waitFor : Utils.timeSchedule },
+        { action : 'click', target: Ext.getCmp("btnHistory") }
+    ]);
+}
