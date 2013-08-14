@@ -33,10 +33,7 @@ Ext.define('AM.controller.GameManager', {
                         if(Ext.getCmp(y + "_" + x).src == "") {
                             Ext.getCmp(y + "_" + x).setSrc("images/o.png");
                             if(Utils.checkFinishGame(Utils.board, x, y, 2)){
-                                Ext.getCmp('txtStatus').setText("Player O win !");
-                                Ext.getCmp('btnControl').setText("Restart");
-                                Ext.getCmp('mainScreenId').setDisabled(true);
-                                Utils.gameStatus = 1;
+
                             } else {
                                 Ext.getCmp('txtStatus').setText("O played, X playing ...");
                             }
