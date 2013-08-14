@@ -62,7 +62,7 @@
       <file leaf-file-name="unit_test.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/unit_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="28" selection-start="1090" selection-end="1109" vertical-scroll-proportion="0.0">
+            <state line="38" column="82" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,25 +71,34 @@
       <file leaf-file-name="game_action.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="53" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+            <state line="18" column="41" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_join_play_and_winner_is_x.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="03_join_play_and_winner_is_x.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/03_join_play_and_winner_is_x.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="198" selection-end="198" vertical-scroll-proportion="0.21915285">
+            <state line="8" column="79" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui-test.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
+      <file leaf-file-name="GameManager.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="19" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
+            <state line="38" column="48" selection-start="1765" selection-end="1765" vertical-scroll-proportion="1.1896869">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="26" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,17 +114,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web-app/index.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/mocks/stop_request.js" />
-        <option value="$PROJECT_DIR$/web-app/app/controller/GameManager.js" />
-        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.html" />
-        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js" />
-        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js" />
-        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js" />
-        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/unit_test.js" />
+        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js" />
+        <option value="$PROJECT_DIR$/web-app/index.js" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js" />
+        <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js" />
         <option value="$PROJECT_DIR$/web-app/app-test/ui-test/specs/03_join_play_and_winner_is_x.js" />
+        <option value="$PROJECT_DIR$/web-app/app/controller/GameManager.js" />
       </list>
     </option>
   </component>
@@ -687,18 +697,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="235" selection-end="235" vertical-scroll-proportion="0.3130755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app/view/GameScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="160" column="26" selection-start="4849" selection-end="4858" vertical-scroll-proportion="0.53038675">
@@ -711,20 +709,6 @@
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="65" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.18600368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="191" selection-end="191" vertical-scroll-proportion="0.3756906">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="29" selection-start="487" selection-end="487" vertical-scroll-proportion="0.3617021">
@@ -732,44 +716,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+        <state line="16" column="67" selection-start="749" selection-end="749" vertical-scroll-proportion="0.5261122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="129" selection-end="129" vertical-scroll-proportion="0.1878453">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/01_join_and_stop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+        <state line="1" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.031307552">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js">
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="53" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+        <state line="1" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.031307552">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="19" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
+        <state line="23" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.40699816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="41" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/unit_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="28" selection-start="1090" selection-end="1109" vertical-scroll-proportion="0.0">
+        <state line="38" column="82" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/03_join_play_and_winner_is_x.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="198" selection-end="198" vertical-scroll-proportion="0.21915285">
+        <state line="8" column="79" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1765" selection-end="1765" vertical-scroll-proportion="1.1896869">
           <folding />
         </state>
       </provider>

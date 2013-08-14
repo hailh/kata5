@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-function joinGame(t){
+function joinGame(t, firstState){
     t.diag('Open new game and stop game');
     var form = Ext.create('AM.view.GameScreen', {
         renderTo : Ext.getBody(),
@@ -15,6 +15,7 @@ function joinGame(t){
     });
     form.show();
     t.pass("Game started !");
+    Utils.count = firstState;
 }
 
 function playOneStep(t, x, y){

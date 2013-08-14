@@ -13,27 +13,39 @@ Ext.define('AM.controller.GameManager', {
         selector:'gameScreen'
     }],
     init: function () {
-        var count = 0;
-        var status = 0;
         this.control({
             'gameScreen':{
                 btnClick: function(y, x){
-                    if(count % 2 == 0){
+                    if(Utils.count % 2 == 0){
                         if(Ext.getCmp(y + "_" + x).src == "") {
                             Ext.getCmp(y + "_" + x).setSrc("images/x.png");
-                            Ext.getCmp('txtStatus').setText("X played, O playing ...");
-                            ++count;
+                            if(Utils.checkFinishGame(Utils.board, x, y, 1)){
+                                Ext.getCmp('txtStatus').setText("Player X win !");
+                                Ext.getCmp('btnControl').setText("Restart");
+                                Ext.getCmp('mainScreenId').setDisabled(true);
+                                Utils.gameStatus = 1;
+                            } else {
+                                Ext.getCmp('txtStatus').setText("X played, O playing ...");
+                            }
+                            ++Utils.count;
                         }
                     } else {
                         if(Ext.getCmp(y + "_" + x).src == "") {
                             Ext.getCmp(y + "_" + x).setSrc("images/o.png");
-                            Ext.getCmp('txtStatus').setText("O played, X playing ...");
-                            ++count;
+                            if(Utils.checkFinishGame(Utils.board, x, y, 2)){
+                                Ext.getCmp('txtStatus').setText("Player O win !");
+                                Ext.getCmp('btnControl').setText("Restart");
+                                Ext.getCmp('mainScreenId').setDisabled(true);
+                                Utils.gameStatus = 1;
+                            } else {
+                                Ext.getCmp('txtStatus').setText("O played, X playing ...");
+                            }
+                            ++Utils.count;
                         }
                     }
                 },
                 btnControlClick: function(){
-                    if (status == 0){
+                    if (Utils.gameStatus == 0){
                         Ext.data.JsonP.request({
                             scope:this,
                             url: '/tictactoe/stop',
@@ -43,7 +55,7 @@ Ext.define('AM.controller.GameManager', {
                                 Ext.getCmp('mainScreenId').setDisabled(true);
                             }
                         });
-                        status = 1;
+                        Utils.gameStatus = 1;
                     }
                 }
             }

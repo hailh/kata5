@@ -1,5 +1,5 @@
 StartTest(function(t) {
-    joinGame(t);
+    joinGame(t, 0);
     playOneStep(t, 0, 0);
     playOneStep(t, 0, 1);
     playOneStep(t, 1, 1);

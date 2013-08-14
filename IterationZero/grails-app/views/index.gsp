@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="js/extjs-4.1.1/resources/css/ext-all.css"/>
     <script type="text/javascript" src="js/extjs-4.1.1/ext-all-debug.js"></script>
     <link rel="stylesheet" type="text/css" href="css/Loading.css"/>
+    <script type="text/javascript" src="app-test/ui-test/common/utils.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </head>
 <body>

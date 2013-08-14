@@ -13,7 +13,6 @@ Harness.start([{
         preload : [
             '../../js/sinon-1.5.2.js',
             'mocks/stop_request.js',
-            'common/utils.js',
             'game_action.js',
             'unit_test.js'
         ]
@@ -23,7 +22,6 @@ Harness.start([{
         preload : [
             '../../js/sinon-1.5.2.js',
             'mocks/stop_request.js',
-            'common/utils.js',
             'game_action.js',
             'unit_test.js'
         ]
