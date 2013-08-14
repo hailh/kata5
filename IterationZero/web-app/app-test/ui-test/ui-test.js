@@ -53,7 +53,13 @@ Harness.start([{
         preload : [
             'common/utils.js',
             'game_action.js',
-            'unit_test.js'
+            'unit_test.js',
+            '../../js/extjs-4.1.1/ux/ajax/Simlet.js',
+            '../../js/extjs-4.1.1/ux/ajax/SimXhr.js',
+            '../../js/extjs-4.1.1/ux/ajax/DataSimlet.js',
+            '../../js/extjs-4.1.1/ux/ajax/JsonSimlet.js',
+            '../../js/extjs-4.1.1/ux/ajax/SimManager.js',
+            'mocks/history_request.js'
         ]
     }]
 }]);

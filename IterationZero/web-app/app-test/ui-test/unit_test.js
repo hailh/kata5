@@ -73,7 +73,7 @@ function hasStatusDraw(t){
 }
 
 function hasShowedGameHistory(t){
-    Utils.timeSchedule += 500;
+    Utils.timeSchedule += 1500;
     t.chain([
         { waitFor : Utils.timeSchedule },
         function(next) {
