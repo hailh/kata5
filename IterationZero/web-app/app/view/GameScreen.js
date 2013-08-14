@@ -172,6 +172,16 @@ Ext.define('AM.view.GameScreen', {
             handler: function(){
                 Ext.ComponentQuery.query('gameScreen')[0].fireEvent('btnHistoryClick');
             }
+        }, {
+            xtype: 'grid',
+            id: 'gridHistory',
+            store: 'History',
+            width: 200,
+            columns: [
+                { text: 'First',  dataIndex: 'First', flex: 1 },
+                { text: 'Winner', dataIndex: 'Winner', flex: 1 },
+                { text: 'Details', dataIndex: 'Details', flex: 2  }
+            ]
         }]
     }]
 });

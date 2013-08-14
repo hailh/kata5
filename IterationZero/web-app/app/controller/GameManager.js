@@ -7,6 +7,8 @@
  */
 Ext.define('AM.controller.GameManager', {
     extend: 'Ext.app.Controller',
+    models: ['History'],
+    stores: ['History'],
     views: ['GameScreen'],
     refs : [{
         ref:'GameScreen',
@@ -63,6 +65,9 @@ Ext.define('AM.controller.GameManager', {
                         Ext.getCmp('mainScreenId').setDisabled(true);
                         Utils.gameStatus = 1;
                     }
+                },
+                btnHistoryClick: function(){
+                    Ext.getCmp('gridHistory').getStore().load();
                 }
             }
         });
