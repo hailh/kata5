@@ -27,5 +27,13 @@ Harness.start([{
             'game_action.js',
             'unit_test.js'
         ]
+    }, {
+        title : 'Join game, play, and winner is X',
+        url : 'specs/03_join_play_and_winner_is_x.js',
+        preload : [
+            'common/utils.js',
+            'game_action.js',
+            'unit_test.js'
+        ]
     }]
 }]);
