@@ -8,18 +8,18 @@
 
 Utils = {
     count: 0,
+    moveCount: 0,
     gameStatus: 0,
     timeSchedule: 0,
     board: [[0, 0, 0], [0, 0, 0],[0, 0, 0]],
 
     checkFinishGame: function (board, x, y, state) {
         var n = 3;
-        var moveCount = 0;
         var finish = true;
         if(board[x][y] == 0){
             board[x][y] = state;
         }
-        moveCount++;
+        Utils.moveCount++;
 
         //check end conditions
 
@@ -66,7 +66,8 @@ Utils = {
         }
 
         //check draw
-        if(moveCount == (n^2 - 1)){
+        if(Utils.moveCount == (n*n)){
+            Utils.gameStatus = 2;
             return false;
         }
     }

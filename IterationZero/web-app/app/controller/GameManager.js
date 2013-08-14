@@ -25,7 +25,13 @@ Ext.define('AM.controller.GameManager', {
                                 Ext.getCmp('mainScreenId').setDisabled(true);
                                 Utils.gameStatus = 1;
                             } else {
-                                Ext.getCmp('txtStatus').setText("X played, O playing ...");
+                                if(Utils.gameStatus == 2){
+                                    Ext.getCmp('txtStatus').setText("Game draw !");
+                                    Ext.getCmp('btnControl').setText("Restart");
+                                    Ext.getCmp('mainScreenId').setDisabled(true);
+                                } else {
+                                    Ext.getCmp('txtStatus').setText("X played, O playing ...");
+                                }
                             }
                             ++Utils.count;
                         }
@@ -38,7 +44,13 @@ Ext.define('AM.controller.GameManager', {
                                 Ext.getCmp('mainScreenId').setDisabled(true);
                                 Utils.gameStatus = 1;
                             } else {
-                                Ext.getCmp('txtStatus').setText("O played, X playing ...");
+                                if(Utils.gameStatus == 2){
+                                    Ext.getCmp('txtStatus').setText("Game draw !");
+                                    Ext.getCmp('btnControl').setText("Restart");
+                                    Ext.getCmp('mainScreenId').setDisabled(true);
+                                } else {
+                                    Ext.getCmp('txtStatus').setText("O played, X playing ...");
+                                }
                             }
                             ++Utils.count;
                         }
