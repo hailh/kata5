@@ -109,7 +109,7 @@
       <file leaf-file-name="GameManager.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="29" selection-start="714" selection-end="1084" vertical-scroll-proportion="0.27992633">
+            <state line="66" column="21" selection-start="2925" selection-end="3232" vertical-scroll-proportion="0.53038675">
               <folding />
             </state>
           </provider>
@@ -772,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="29" selection-start="714" selection-end="1084" vertical-scroll-proportion="0.27992633">
+        <state line="66" column="21" selection-start="2925" selection-end="3232" vertical-scroll-proportion="0.53038675">
           <folding />
         </state>
       </provider>

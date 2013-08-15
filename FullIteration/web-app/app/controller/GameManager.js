@@ -16,6 +16,7 @@ Ext.define('AM.controller.GameManager', {
                                 Ext.getCmp('txtStatus').setText("Player X win !");
                                 Ext.getCmp('btnControl').setText("Restart");
                                 Ext.getCmp('mainScreenId').setDisabled(true);
+                                Utils.gameStatus = 2;
                             } else {
                                 Ext.getCmp('txtStatus').setText("X played, O playing ...");
                             }
@@ -30,9 +31,23 @@ Ext.define('AM.controller.GameManager', {
                     }
                 },
                 btnControlClick: function(){
-                    Ext.getCmp('txtStatus').setText("Game stopped !");
-                    Ext.getCmp('btnControl').setText("Restart");
-                    Ext.getCmp('mainScreenId').setDisabled(true);
+                    if (Utils.gameStatus == 0){
+                        Ext.getCmp('txtStatus').setText("Game stopped !");
+                        Ext.getCmp('btnControl').setText("Start");
+                        Ext.getCmp('mainScreenId').setDisabled(true);
+                        Utils.gameStatus = 1;
+                    } else {
+                        Ext.getCmp('txtStatus').setText("Game started !");
+                        Ext.getCmp('btnControl').setText("Stop");
+                        Ext.getCmp('mainScreenId').setDisabled(false);
+                        Utils.board = [[0, 0, 0], [0, 0, 0],[0, 0, 0]];
+                        for(var i = 0; i < 3; i ++){
+                            for(var j = 0; j < 3; j++){
+                                Ext.getCmp(i + "_" + j).setSrc("");
+                            }
+                        }
+                        Utils.gameStatus = 0;
+                    }
                 },
                 btnHistoryClick: function(){
 
