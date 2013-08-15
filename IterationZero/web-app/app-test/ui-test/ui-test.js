@@ -13,47 +13,41 @@ Harness.start([{
         preload : [
             '../../js/sinon-1.5.2.js',
             'mocks/stop_request.js',
-            'game_action.js',
-            'unit_test.js'
+            'game_runner.js'
         ]
     }, {
         title : 'Join game, play some steps, stop without winner',
         url : 'specs/02_join_play_stop_and_nobody_win.js',
         preload : [
-            'game_action.js',
-            'unit_test.js'
+            'game_runner.js'
         ]
     }, {
         title : 'Join game, play, and winner is X',
         url : 'specs/03_join_play_and_winner_is_x.js',
         preload : [
             'common/utils.js',
-            'game_action.js',
-            'unit_test.js'
+            'game_runner.js'
         ]
     }, {
         title : 'Join game, play, and winner is O',
         url : 'specs/04_join_play_and_winner_is_o.js',
         preload : [
             'common/utils.js',
-            'game_action.js',
-            'unit_test.js'
+            'game_runner.js'
         ]
     }, {
         title : 'Join game, play, and draw',
         url : 'specs/05_join_play_and_draw.js',
         preload : [
             'common/utils.js',
-            'game_action.js',
-            'unit_test.js'
+            'game_runner.js'
         ]
     }, {
         title : 'View game history',
         url : 'specs/06_view_history.js',
         preload : [
             'common/utils.js',
-            'game_action.js',
-            'unit_test.js',
+            'game_runner.js',
             '../../js/extjs-4.1.1/ux/ajax/Simlet.js',
             '../../js/extjs-4.1.1/ux/ajax/SimXhr.js',
             '../../js/extjs-4.1.1/ux/ajax/DataSimlet.js',
