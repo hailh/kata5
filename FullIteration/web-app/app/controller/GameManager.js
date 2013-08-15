@@ -12,7 +12,9 @@ Ext.define('AM.controller.GameManager', {
 
                 },
                 btnControlClick: function(){
-
+                    Ext.getCmp('txtStatus').setText("Game stopped !");
+                    Ext.getCmp('btnControl').setText("Start");
+                    Ext.getCmp('mainScreenId').setDisabled(true);
                 },
                 btnHistoryClick: function(){
 
