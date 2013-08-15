@@ -13,5 +13,11 @@ Harness.start([{
         preload : [
             'game_runner.js'
         ]
+    }, {
+        title : 'Join game, play some steps, stop without winner',
+        url : 'specs/02_join_play_stop_and_nobody_win.js',
+        preload : [
+            'game_runner.js'
+        ]
     }]
 }]);

@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_runner.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="game_runner.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_runner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="64" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+            <state line="66" column="1" selection-start="1029" selection-end="1649" vertical-scroll-proportion="0.65745854">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -106,10 +106,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameManager.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="72" selection-start="2977" selection-end="3164" vertical-scroll-proportion="0.46777165">
+            <state line="64" column="72" selection-start="2977" selection-end="3164" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui-test.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="5" selection-start="456" selection-end="650" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -237,6 +246,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ui-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="specs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,7 +600,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -705,26 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="45" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.6243094">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/specs/02_join_play_stop_and_nobody_win.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="19" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_runner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="64" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,8 +756,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="72" selection-start="2977" selection-end="3164" vertical-scroll-proportion="0.46777165">
+        <state line="64" column="72" selection-start="2977" selection-end="3164" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="456" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_runner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="1" selection-start="1029" selection-end="1649" vertical-scroll-proportion="0.65745854">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
