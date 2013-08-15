@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_runner.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="game_runner.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_runner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="1" selection-start="1029" selection-end="1649" vertical-scroll-proportion="0.0">
+            <state line="79" column="0" selection-start="1956" selection-end="2242" vertical-scroll-proportion="0.4383057">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -106,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameManager.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="21" selection-start="520" selection-end="2840" vertical-scroll-proportion="0.9060773">
+            <state line="39" column="51" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +118,7 @@
       <file leaf-file-name="ui-test.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="456" selection-end="650" vertical-scroll-proportion="0.0">
+            <state line="30" column="5" selection-start="650" selection-end="856" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -754,26 +754,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="51" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="456" selection-end="650" vertical-scroll-proportion="0.0">
+        <state line="30" column="5" selection-start="650" selection-end="856" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_runner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="1" selection-start="1029" selection-end="1649" vertical-scroll-proportion="0.0">
+        <state line="79" column="0" selection-start="1956" selection-end="2242" vertical-scroll-proportion="0.4383057">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="21" selection-start="520" selection-end="2840" vertical-scroll-proportion="0.9060773">
-          <folding />
         </state>
       </provider>
     </entry>

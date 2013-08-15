@@ -19,5 +19,11 @@ Harness.start([{
         preload : [
             'game_runner.js'
         ]
+    }, {
+        title : 'Join game, play, and winner is X',
+        url : 'specs/03_join_play_and_winner_is_x.js',
+        preload : [
+            'game_runner.js'
+        ]
     }]
 }]);

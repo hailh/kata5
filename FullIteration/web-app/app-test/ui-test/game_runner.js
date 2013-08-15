@@ -61,3 +61,14 @@ function hasStatusOPlayedXPlaying(t){
     ]);
 }
 
+function hasStatusPlayerXWin(t){
+    Utils.timeSchedule += 500;
+    t.chain([
+        { waitFor : Utils.timeSchedule },
+        function(next) {
+            t.is(Ext.getCmp('txtStatus').text, 'Player X win !', 'Play some steps and player X win');
+            next();
+        }
+    ]);
+}
+
