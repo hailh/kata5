@@ -62,7 +62,7 @@
       <file leaf-file-name="utils.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="80" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
+            <state line="72" column="7" selection-start="238" selection-end="1735" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_runner.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="game_runner.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_runner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="1956" selection-end="2242" vertical-scroll-proportion="0.4383057">
+            <state line="79" column="0" selection-start="1956" selection-end="2242" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -106,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameManager.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameManager.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="51" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.0">
+            <state line="28" column="29" selection-start="714" selection-end="1084" vertical-scroll-proportion="0.27992633">
               <folding />
             </state>
           </provider>
@@ -747,20 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="80" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="51" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="5" selection-start="650" selection-end="856" vertical-scroll-proportion="0.0">
@@ -770,10 +756,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_runner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="1956" selection-end="2242" vertical-scroll-proportion="0.4383057">
+        <state line="79" column="0" selection-start="1956" selection-end="2242" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/common/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="7" selection-start="238" selection-end="1735" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="29" selection-start="714" selection-end="1084" vertical-scroll-proportion="0.27992633">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -12,7 +12,13 @@ Ext.define('AM.controller.GameManager', {
                     if(Utils.count % 2 == 0){
                         if(Ext.getCmp(y + "_" + x).src == "") {
                             Ext.getCmp(y + "_" + x).setSrc("images/x.png");
-                            Ext.getCmp('txtStatus').setText("X played, O playing ...");
+                            if(Utils.checkFinishGame(Utils.board, x, y, 1)){
+                                Ext.getCmp('txtStatus').setText("Player X win !");
+                                Ext.getCmp('btnControl').setText("Restart");
+                                Ext.getCmp('mainScreenId').setDisabled(true);
+                            } else {
+                                Ext.getCmp('txtStatus').setText("X played, O playing ...");
+                            }
                             ++Utils.count;
                         }
                     } else {
@@ -25,7 +31,7 @@ Ext.define('AM.controller.GameManager', {
                 },
                 btnControlClick: function(){
                     Ext.getCmp('txtStatus').setText("Game stopped !");
-                    Ext.getCmp('btnControl').setText("Start");
+                    Ext.getCmp('btnControl').setText("Restart");
                     Ext.getCmp('mainScreenId').setDisabled(true);
                 },
                 btnHistoryClick: function(){
