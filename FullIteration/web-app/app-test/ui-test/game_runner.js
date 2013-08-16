@@ -35,6 +35,14 @@ function clickRestartButton(t){
     ]);
 }
 
+function clickHistoryButton(t){
+    Utils.timeSchedule += 500;
+    t.chain([
+        { waitFor : Utils.timeSchedule },
+        { action : 'click', target: Ext.getCmp("btnHistory") }
+    ]);
+}
+
 /*Test*/
 function hasStoppedAfterClickStopButton(t){
     Utils.timeSchedule += 500;
@@ -98,6 +106,26 @@ function hasStatusDraw(t){
         function(next) {
             t.is(Ext.getCmp('txtStatus').text, 'Game draw !', 'Play some steps and draw');
             next();
+        }
+    ]);
+}
+
+function hasShowedGameHistory(t){
+    Utils.timeSchedule += 1500;
+    t.chain([
+        { waitFor : Utils.timeSchedule },
+        function(next) {
+            t.isNot(Ext.getCmp('gridHistory').getStore().data.items.length, 0, 'Show game history in grid view');
+            t.waitForRowsVisible(Ext.getCmp('gridHistory'), function() {
+                t.ok(Ext.getCmp('gridHistory').getView().getNode(0), "One row was found in the grid");
+                t.matchGridCellContent(
+                    Ext.getCmp('gridHistory'),                              // Grid to test
+                    2,                                                      // Row index
+                    2,                                                      // Column index
+                    '2 4 8 2 7 1 6',                                        // Text to match
+                    'Game details in the third row correct information'     // Assertion message
+                );
+            });
         }
     ]);
 }

@@ -38,5 +38,11 @@ Harness.start([{
             'common/utils.js',
             'game_runner.js'
         ]
+    }, {
+        title : 'View game history',
+        url : 'specs/06_view_history.js',
+        preload : [
+            'game_runner.js'
+        ]
     }]
 }]);
