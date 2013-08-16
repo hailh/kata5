@@ -42,7 +42,13 @@ Harness.start([{
         title : 'View game history',
         url : 'specs/06_view_history.js',
         preload : [
-            'game_runner.js'
+            'game_runner.js',
+            '../../js/extjs-4.1.1/ux/ajax/Simlet.js',
+            '../../js/extjs-4.1.1/ux/ajax/SimXhr.js',
+            '../../js/extjs-4.1.1/ux/ajax/DataSimlet.js',
+            '../../js/extjs-4.1.1/ux/ajax/JsonSimlet.js',
+            '../../js/extjs-4.1.1/ux/ajax/SimManager.js',
+            'mocks/history_request.js'
         ]
     }]
 }]);

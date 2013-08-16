@@ -1,5 +1,7 @@
 Ext.define('AM.controller.GameManager', {
     extend: 'Ext.app.Controller',
+    models: ['History'],
+    stores: ['History'],
     views: ['GameScreen'],
     refs : [{
         ref:'GameScreen',
@@ -70,7 +72,7 @@ Ext.define('AM.controller.GameManager', {
                     }
                 },
                 btnHistoryClick: function(){
-
+                    Ext.getCmp('gridHistory').getStore().load();
                 }
             }
         });

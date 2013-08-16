@@ -107,7 +107,7 @@
       <file leaf-file-name="GameManager.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="70" selection-start="2537" selection-end="2537" vertical-scroll-proportion="0.0">
+            <state line="10" column="24" selection-start="233" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +116,7 @@
       <file leaf-file-name="ui-test.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="5" selection-start="1254" selection-end="1754" vertical-scroll-proportion="0.78084713">
+            <state line="55" column="39" selection-start="1416" selection-end="1738" vertical-scroll-proportion="0.71823204">
               <folding />
             </state>
           </provider>
@@ -305,6 +305,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -324,6 +350,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IterationZero" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,11 +778,6 @@
         <state line="3" column="39" selection-start="48" selection-end="106" vertical-scroll-proportion="0.09392265" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app/view/GameScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="96" selection-start="5306" selection-end="5306" vertical-scroll-proportion="1.626151" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/mocks/history_request.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="39" selection-start="339" selection-end="339" vertical-scroll-proportion="0.4383057" />
@@ -746,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="70" selection-start="2537" selection-end="2537" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/game_runner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="130" column="1" selection-start="2803" selection-end="3797" vertical-scroll-proportion="0.0">
@@ -760,9 +822,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app/view/GameScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="29" selection-start="5685" selection-end="5685" vertical-scroll-proportion="0.73996174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/app/controller/GameManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="233" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/app-test/ui-test/ui-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="5" selection-start="1254" selection-end="1754" vertical-scroll-proportion="0.78084713">
+        <state line="55" column="39" selection-start="1416" selection-end="1738" vertical-scroll-proportion="0.71823204">
           <folding />
         </state>
       </provider>
