@@ -47,6 +47,7 @@ Ext.define('AM.controller.GameManager', {
                             }
                         }
                         Utils.gameStatus = 0;
+                        Utils.count = 0;
                     }
                 },
                 btnHistoryClick: function(){

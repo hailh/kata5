@@ -27,6 +27,14 @@ function playOneStep(t, x, y){
     ]);
 }
 
+function clickRestartButton(t){
+    Utils.timeSchedule += 500;
+    t.chain([
+        { waitFor : Utils.timeSchedule },
+        { action : 'click', target: Ext.getCmp("btnControl") }
+    ]);
+}
+
 /*Test*/
 function hasStoppedAfterClickStopButton(t){
     Utils.timeSchedule += 500;
