@@ -91,3 +91,14 @@ function hasStatusPlayerOWin(t){
     ]);
 }
 
+function hasStatusDraw(t){
+    Utils.timeSchedule += 500;
+    t.chain([
+        { waitFor : Utils.timeSchedule },
+        function(next) {
+            t.is(Ext.getCmp('txtStatus').text, 'Game draw !', 'Play some steps and draw');
+            next();
+        }
+    ]);
+}
+
