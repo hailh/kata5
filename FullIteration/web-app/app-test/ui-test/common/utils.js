@@ -24,6 +24,35 @@ Utils = {
                 }
             }
         }
+
+        //check col
+        for(var i = 0; i < n; i++){
+            if(board[x][i] != state)
+                finish = false;
+            if(finish == true && i == n-1){
+                return true;
+            }
+        }
+
+        //check row
+        finish = true;
+        for(var i = 0; i < n; i++){
+            if(board[i][y] != state)
+                finish = false;
+            if(finish == true && i == n-1){
+                return true;
+            }
+        }
+
+        //check anti diag
+        finish = true;
+        for(var i = 0;i<n;i++){
+            if(board[i][(n-1)-i] != state)
+                finish = false;
+            if(finish == true && i == n-1){
+                return true;
+            }
+        }
     }
 }
 
