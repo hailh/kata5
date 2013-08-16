@@ -53,6 +53,12 @@ Utils = {
                 return true;
             }
         }
+
+        //check draw
+        if(Utils.moveCount == (n*n)){
+            Utils.gameStatus = 2;
+            return false;
+        }
     }
 }
 
